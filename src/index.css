@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+}
+
+.container {
+  @apply max-w-[1320px] mx-auto;
+}
+
+.links ul li a:hover{
+  @apply font-bold text-[#4756DF]  transition-all ease-in-out duration-350 text-[18px] leading-6.5 font-inter;
+}
+.links ul li a{
+  @apply text-[18px] leading-6.5 text-white font-inter;
+}
+.footer-ul li a{
+  @apply font-normal font-inter text-[#7B7B7B] leading-[40px] text-[16px];
+}
+.footer-h1{
+  @apply text-[#151515] font-inter text-[20px] font-semibold pb-8
+}
+
+
+.slick-dots li button {
+    width: 16px!important;
+    height: 16px!important;
+    border-radius: 50%!important;
+     transition: all linear .3s;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 24px!important;
+    height: 24px!important;
+    background-color: #4756DF!important;
+    border-radius: 50%;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    transition: all linear .3s;
+}
+.slick-dots li.slick-active {
+  background-color: #fff!important;
+}
+.slick-dots li.slick-active button{
+  background-color: #fff!important;
+  background-color: #4756DF!important;
+}
+.slick-dots li button:before {
+    display: none !important;
+}
+.slick-dots {
+    bottom: 63px!important;
+    display: flex!important;
+    justify-content: center!important;
+}
+
+.slick-center .review-card {
+  background-color: #F0F5FF;
+  transform: scale(1.05);
+  transition: all 0.75s ease-in-out ;
+  border-radius: 25px;
+}
+
+.min-h-\[500px\] {
+    min-height: 0 ;
+}
