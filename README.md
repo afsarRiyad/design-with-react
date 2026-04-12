@@ -26,6 +26,4 @@ A modern responsive web design built with **React** and **Tailwind CSS**.
 - JavaScript (ES6+)
 - Vite (for fast development)
 
----
-
-## 📂 Folder Structure
+--
